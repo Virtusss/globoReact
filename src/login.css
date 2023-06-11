@@ -1,0 +1,65 @@
+.paginaLogin {
+    display: flex;
+    flex-direction: column;
+    color: rgb(29, 28, 28);
+    margin: 0px 600px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.paginaLogin .contaGlobo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(49, 103, 225);
+    margin: 30px;
+
+}
+
+.paginaLogin input {
+    font-size: 20px;
+    border-radius: 5px;
+    max-width: 420px;
+    min-width: 420px;
+    max-height: 50px;
+    min-height: 50px;
+    background-color: rgb(233, 240, 255);
+    
+}
+
+.paginaLogin .Dados p{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.paginaLogin .botao {
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(49, 103, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 30px;
+    padding: 15px;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 40px;
+    min-height: 40px;
+
+}
+
+.paginaLogin .botao h2 {
+    color: white;
+
+}
+
+.paginaLogin .nTemConta bold {
+    color: rgb(49, 103, 225);;
+}
+

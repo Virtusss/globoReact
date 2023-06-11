@@ -1,0 +1,103 @@
+.corpoNoticia {
+    padding: 10px 0px 0px 0px;
+    background-color: white;
+    margin: 0px 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiraColuna {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    min-width: 650px;
+}
+
+.segundaColuna {
+    display: flex;
+    flex-direction: column;
+    max-width: 329px;
+    min-width: 329px;
+    justify-content: start;
+    align-items: center;
+}
+
+.primeiraColuna hr {
+    margin: 20px 0px;
+    max-width: 650px;
+    min-width: 650px;
+}
+
+.corpoNoticia .linhaV {
+    margin: 20px;
+    width: 1px;
+    border: none;
+    background-color: rgb(235, 237, 238);
+}
+
+.Linha {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 650px;
+    min-width: 650px;
+    justify-content: space-between;
+}
+
+.corpoNoticia .vl {
+    border-left: 12px solid rgb(24, 58, 75);
+    height: 4000px;
+  }
+
+.Noticia {
+    
+    overflow: hidden;
+    max-width: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.segundaColuna img {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 175px;
+    min-height: 175px;
+    
+}
+
+.Noticia .Imagem {
+    
+}
+
+img {
+    border-radius: 20px;
+    flex-grow: 1;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 125px;
+    min-height: 125px;
+}
+
+.Noticia .Titulo {
+    padding: 10px 0px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: left;
+    color: rgb(28, 178, 89);
+    font-weight: bold;
+    
+
+}
+
+.Noticia .Texto {
+    padding: 10px 0px;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    font-weight: light;
+
+}
